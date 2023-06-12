@@ -222,9 +222,16 @@ body{
     opacity: 1;
     transform:rotate(-45deg);
 }
-.header-image img{
-    height: 100vh;
-    float: right;
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+box-shadow: 0px 3px 5px rgba(15, 15, .5);
 }
 .header-image{
     float: right;
